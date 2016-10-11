@@ -1,0 +1,49 @@
+.button {
+	display: inline-block;
+	padding: 5px;
+	background-color: #36A6B3;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+.button:hover {
+	cursor: pointer;
+}
+.addinput {
+	padding: 20px;
+	padding-left: 0px;
+	border-top: 1px solid gray;
+}
+.leftbl, .rigthbl {
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+}
+.leftbl {
+	width: 500px;
+	max-height: 400px;
+	overflow: auto;
+}
+.userformbl {
+	
+	border-top: 1px solid gray;
+	padding-top: 20px;
+}
+#codeblock {
+	width: 300px;
+	height: 400px;
+	resize: none;
+}
+.savebl {
+	width: 800px;
+	padding: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+body {
+	text-align: center;
+}
+.wrap {
+	display: inline-block;
+	width: 900px;
+	text-align: left;
+}

@@ -1,0 +1,55 @@
+/* Цвет кнопок */
+.button {
+	background-color: #E2E2E2;
+}
+/* Цвет кнопок при наведении */
+.button:hover{
+	background-color: gray;
+}
+/* Цвет кнопок меню и кнопок для чека новинок  */
+.newitemNow, .menuitem {
+    background-color: #7492BF; 
+    color: white;
+}
+/* Цвет меню */
+menu {
+	background-color: #7492BF;
+}
+/* Цвет кнопок для чека новинок при наведении */
+.newitemNow:hover{
+    background-color: #4F81CE;
+}
+/* Цвет кнопок меню при наведении */
+.menuitem:hover {
+    background-color: #4A77BB;
+}
+/* Цвет пометки New на постере */
+.newcaption {
+	background-color: #3C6DB7;
+    color: white;
+}
+/* Цвет крестика в всплывающих окнах */
+.deleteitem {
+	color: black;
+}
+/* Цвет контейнера */
+.b-container{ 
+	color: #fff;
+	background-color: #ccc;
+}
+/* Цвет заголовка групп */
+.groupcaption {
+	color: #888888;
+}
+/* Цвет значков при наведении */
+i:hover {
+	color: blue;
+}
+/* Цвет надписи загрузить постер в всплывающем окне для добавления */
+#loadposter{
+    color: blue;
+}
+/* Цвет надписи загрузить постер при наведении в всплывающем окне для добавления */
+#loadposter:hover {
+    color:gray;
+}

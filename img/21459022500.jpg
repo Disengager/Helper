@@ -1,0 +1,20 @@
+﻿<!DOCTYPE HTML><html><head>
+	<script type='text/javascript' src='../js/engine.js'></script>
+	<script type='text/javascript' src='../js/jquery-2.1.4.min.js'></script>
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="../css/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title></title></head><body><div class="wrap">
+<div class="fullscreenline" style="margin-top: 20px;"></div>
+<section class="regregisterblock">
+<div class="registercaption">Авторизация</div>
+<form  method="POST" action="login.php?type=loginadd" class="registerform">
+<br><input type="text" name="Login" placeholder="Логин" maxlength="10" pattern="[A-Za-z-0-9]{3,10}" title="Не менее 3 и не более 10 латинских символов или цифр." required>
+<br><input type="password"  name="Password" placeholder="Пароль" maxlength="15" pattern="[A-Za-z-0-9]{1,15}" title="Не менее 1 и не более 15 латинских символов или цифр." required>
+<div class="buttonblock">
+	<br>Если у вас нет аккаунта - <a href="login.php?type=register">зарегистрируйтесь</a>	<br><input type="submit" value="    Войти     ">
+</div>
+</form>
+</section>
+<div class="fullscreenline" style="margin-top: 20px;"></div>

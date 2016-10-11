@@ -1,0 +1,7 @@
+body {
+    background: #fff url(../img/bg1.jpg) !important; 
+	background-repeat:no-repeat !important; 
+    background-attachment:fixed !important; 
+    background-position:center !important; 
+
+}

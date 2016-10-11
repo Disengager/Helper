@@ -1,0 +1,112 @@
+/* Тело сайта */
+body {
+	padding-top: 20px;
+	font-family: arial;
+	font-size: 16px;
+}
+/* Центральный блок, в котором находятся группы */
+.wrap {
+	text-align: left;
+	max-width: 1500px;
+	padding-left: 30px;
+}
+/* Блок с настройками в расширенном режиме */
+.rigthblock {
+	margin-top: 50px;
+}
+/* Полоска в вверху */
+menu {
+    margin-top: -20px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+/* Пункты меню */
+.menuitem {
+    padding-left: 15px;
+	border: none;
+    padding-right: 15px;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+/* Меню */
+.menu {
+    margin-left: 50px;
+}
+/* Заголовок категории */
+.groupcaption {
+	padding: 5px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	border: 30px rgba(136, 136, 136, 0.27) solid; 
+	border-top: none;border-left: none; border-right: none; 
+	border-radius: 2px;
+	font-size: 21px;
+	width: 90%;
+	font-weight: 600; /* Жирное начертание */
+	text-transform: uppercase;
+}
+/* Элемент */
+.item {
+	width: 180px;
+	padding: 6px;
+	text-align: center;
+	margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+/* Постер элемента */
+.itemPoster {
+   width: 100%;
+   float: left;
+   text-align: center;
+   box-shadow: 0px 0px 5px #aaa;
+}
+/* Подпись элемента */
+.itemCaption {
+	width: 95%;
+	padding: 5px;
+	font-size: 18px;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+}
+/* Поля с последним или новым значением */
+.itemNow, .newitemNow {
+	width: 95%;
+	padding: 5px;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	text-overflow: ellipsis;
+}
+/* Подпись New у постера */
+.newcaption {
+    font-size: 20px;
+    opacity: 0.9;
+	padding: 3px;
+    padding-right: 25px; 
+    padding-left: 10px;
+	text-transform: uppercase;
+}
+/* Значок добавления в категориях */
+#plus{ 
+	margin-top: 20px;
+}
+/* Крестик в всплывающих окнах */
+.deleteitem {
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-align: right;
+    opacity: 0.7;
+	border: 1px solid gray;
+    border-radius: 5px;
+	border-bottom: none;
+}
+/* Стрелочка вверх-вниз */
+#up{
+	position:fixed;
+	bottom:25px;
+	right:20px;
+}
